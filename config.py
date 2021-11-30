@@ -6,6 +6,6 @@ peers = dict( A=('127.0.0.1',1234),
 
 # State files for crash recovery. Windows users will need to modify
 # these.
-state_files = dict( A='/tmp/A.json',
-                    B='/tmp/B.json',
-                    C='/tmp/C.json' )
+state_files = dict( A='tmp/A.json',
+                    B='tmp/B.json',
+                    C='tmp/C.json' )
